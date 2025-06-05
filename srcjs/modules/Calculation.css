@@ -1,0 +1,31 @@
+/* ACHTUNG: Hier das Präfix ist notwendig, weil das Ding sonst nicht mit reactable kompatibel ist! */
+.calculation-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.calculation-row {
+  display: flex;
+  gap: 1px;
+}
+
+.calculation-cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  /* border: 0.1px solid #000; */
+  display: flex; /* Flexbox aktivieren */
+  align-items: center; /* Vertikale Zentrierung */
+  justify-content: center; /* Horizontale Zentrierung */
+}
+
+.calculation-helper-row .calculation-cell {
+  width: 40px;
+  height: 25px;
+  font-size: 14px;
+  display: flex; /* Flexbox aktivieren */
+  align-items: center; /* Vertikale Zentrierung */
+  justify-content: center; /* Horizontale Zentrierung */
+}

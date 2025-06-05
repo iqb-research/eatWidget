@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "dependencies": {
+    "d3": "^7.9.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-sparklines": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^5.0.1",
+    "react-geogebra": "^1.2.5",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack"
+  }
+}
