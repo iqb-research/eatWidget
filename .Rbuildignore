@@ -10,3 +10,7 @@ test.R
 ^LICENSE\.md$
 ^README\.Rmd$
 test/
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
